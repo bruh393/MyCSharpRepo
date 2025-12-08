@@ -40,7 +40,7 @@ class Calc
         }
         else
         {
-            Console.WriteLine("math error");
+            Console.WriteLine("Math Error");
         }
         
 
