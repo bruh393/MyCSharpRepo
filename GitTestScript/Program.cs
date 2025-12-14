@@ -85,28 +85,29 @@
 //    }
 //}
 
-class Student
-{
-    public string name;
-    public int age;
+//class Student
+//{
+//    public string name;
+//    public int age;
 
-    public Student(string n, int a)
-    {
-        name = n;
-        age = a;
-    }
+//    public Student(string n, int a)
+//    {
+//        name = n;
+//        age = a;
+//    }
 
-    public void Introduce()
-    {
-        Console.WriteLine($"Hi, I'm {name}, and I'm {age} years old.");
-    }
-}
+//    public void Introduce()
+//    {
+//        Console.WriteLine($"Hi, I'm {name}, and I'm {age} years old.");
+//    }
+//}
 
-class Program
-{
-    static void Main()
-    {
-        Student s1 = new Student("Shashwat", 16);
-        s1.Introduce();
-    }
-}
+//class Program
+//{
+//    static void Main()
+//    {
+//        Student s1 = new Student("Shashwat", 16);
+//        s1.Introduce();
+//    }
+//}
+
