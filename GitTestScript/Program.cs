@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 //class gitTest
 //{
 //    public static void Main()
@@ -111,3 +112,22 @@
 //    }
 //}
 
+class Avg
+{
+    public static void Main()
+    {
+        Console.Write("n1");
+        double n1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("n2");
+        double n2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("n3");
+        double n3 = Convert.ToDouble(Console.ReadLine());
+        Avg avg = new Avg();
+        avg.Average(n1, n2, n3);
+    }
+    public void Average(double d, double e, double g)
+    {
+        double f = d + e + g;
+        Console.WriteLine("average is" + f / 3);
+    }
+}// ths code will find the avergae of any number
